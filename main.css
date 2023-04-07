@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 20px;
+}
+
+input,button {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    background-color: rgb(223, 219, 226);
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: rgb(129, 0, 250);
+}
+
+.correct {
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+.wrong {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
