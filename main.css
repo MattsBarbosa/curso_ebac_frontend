@@ -1,0 +1,28 @@
+* {
+    font-family: 'Sigmar', cursive;
+}
+
+body {
+    background-color: rgba(255, 51, 0, 0.103);
+}
+
+form {}
+
+.form-campo {
+    padding: 8px;
+    font-size: 20px;
+}
+
+input {
+    display: flex;
+    margin: 3px;
+    padding: 5px;
+}
+
+button {
+    font-size: 20px;
+    background-color: rgb(49, 253, 49);
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
