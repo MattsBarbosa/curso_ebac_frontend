@@ -46,7 +46,6 @@
                     return res.json();
                 })
                 .then(function(json) {
-                    console.log(json);
                     name.innerText = json.name;
                     username.innerText = json.login;
                     avatar.src = json.avatar_url;
